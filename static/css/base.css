@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(161, 200, 184);
+}
+
+.main-header{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+.main-header *{
+    margin: 10px;
+}
+
+.site-layout{
+    display: flex;
+    flex: 1 auto;
+}
+
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    border: 1px black solid;
+    margin: 10px;
+    background-color: rgb(128, 158, 146);
+    width: 200px;
+    height: 300px;
+    transition: all 0.5s;
+    text-align: center;
+
+    /* a{
+        background-color: darkslategrey;
+        color: bisque;
+        padding: 10px;
+    } */
+}
+
+.product-card:hover{
+    background-color: rgb(89, 110, 102);
+    box-shadow: 14px 13px 20px 1px rgb(85, 77, 77);
+    transform:translateY(-20px);
+    /* transform: rotateX(100deg); */
+}
+
+.site-sidenav{
+    /* background-color: antiquewhite; */
+    padding-right: 30px;
+    /* flex-basis: 200px; */
+}
+
+
+.catalog-btn {
+    height: 44px;
+    background: #20bfb8;
+    color: #fff;
+    border: none;
+    padding: 0 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
